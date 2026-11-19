@@ -1,0 +1,11 @@
+Module: time
+Description: Functions to handle time and dates.
+
+Functions:
+  - time.hour()
+    Returns the current time formatted as "HH:MM".
+    Example: time.hour()
+
+  - time.personalget(format)
+    Returns the current time formatted using a custom datetime format string.
+    Example: time.personalget("%Y-%m-%d")

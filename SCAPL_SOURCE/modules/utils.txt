@@ -1,0 +1,20 @@
+Module: utils
+Description: General utility functions for printing, random numbers, input, and files.
+
+Functions:
+  - utils.print_(*args)
+    Prints the given arguments to the console.
+    Example: utils.print_("Hello World")
+
+  - utils.randomnumber(min, max)
+    Generates a random integer between min and max values.
+    Example: utils.randomnumber(1, 10)
+
+  - utils.input_(prompt)
+    Prompts the user for input with a given message.
+    Example: utils.input_("Enter your name: ")
+
+  - utils.open_(filename, mode, data)
+    Opens a file with the specified mode (e.g., "r", "w").
+    Data does work with the w mode only.
+    Example: utils.open_("test.txt", "r")

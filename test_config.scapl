@@ -1,0 +1,24 @@
+load utils
+load time
+
+str heure = time.hour()
+int a = 1
+float b = 2.5
+bool c = True
+
+if (a == 2) 
+{
+    utils.print_("2 : error")
+}
+elif (b == 5 / 3) 
+{
+    utils.print_("3 : error")
+}
+else 
+{
+    utils.print_("1 : ok")
+}
+
+utils.print_("2 : ok")
+utils.print_("3 : ok")
+utils.print_("if there is no error message config are successful at ", heure, " !")

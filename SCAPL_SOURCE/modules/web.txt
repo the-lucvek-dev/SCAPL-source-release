@@ -1,0 +1,15 @@
+Module: web
+Description: Network and web utilities to fetch content, check status, and ping URLs.
+
+Functions:
+  - web.get(url)
+    Sends an HTTP GET request to the URL and returns its text content.
+    Example: web.get("https://example.com")
+
+  - web.status(url)
+    Checks and returns the HTTP status code (e.g., 200, 404) of a URL.
+    Example: web.status("https://example.com")
+
+  - web.ping(url)
+    Tests if a website is online and returns True or False.
+    Example: web.ping("https://example.com")
