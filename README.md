@@ -12,7 +12,7 @@
    * **If there is no error message:** Perfect! SCAPL is properly configured—you can start testing or using it!
    * **If an error occurs:** Manually create a `test_config.scapl` file with the following content and try again:
 
-```scapl
+**scapl
 load utils
 load time
 
@@ -36,7 +36,7 @@ else
 
 utils.print_("2 : ok")
 utils.print_("3 : ok")
-utils.print_("If there is no error message, the configuration was successful at ", heure, "!")
+utils.print_("If there is no error message, the configuration was successful at ", heure, "!")**
 
 ## How to Install SCAPL (Building from Source with `.py` and PyInstaller)
 
